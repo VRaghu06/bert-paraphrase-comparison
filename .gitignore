@@ -1,0 +1,28 @@
+# Environments
+venv/
+env/
+.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Model weights / training outputs
+fine-tuning-trial1/
+test-trainer/
+*.safetensors
+*.bin
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Environment variables / secrets
+.env

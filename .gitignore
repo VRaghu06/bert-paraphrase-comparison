@@ -10,6 +10,8 @@ __pycache__/
 # Model weights / training outputs
 fine-tuning-trial1/
 test-trainer/
+eval-temp-base/
+eval-temp-fineTuned/
 *.safetensors
 *.bin
 

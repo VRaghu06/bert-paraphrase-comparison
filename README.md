@@ -57,7 +57,7 @@ Although BERT is a pretrained model, the sequence classification head is **rando
 As a result, the predictions are effectively random.
 
 ```python
-AutoModelForSequenceClassification(model='bert-base-uncased' , num_labels = 2)# the num_labels=2 is what indicates that the head is randomly initialized
+AutoModelForSequenceClassification.from_pretrained('bert-base-uncased' , num_labels = 2)# the num_labels=2 is what indicates that the head is randomly initialized
 ```
 
 ---
